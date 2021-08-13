@@ -318,9 +318,10 @@ Oh My Zsh was started by the team at [Planet Argon](https://www.planetargon.com/
 cd tools
 ZSH=~/.zsh sh install.sh
 # see https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone git@github.com:llongint/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # add zsh-autosuggestions to plugins
 vi ~/.zshrc
+# amuse is recomend
 ```
 
 
