@@ -324,6 +324,7 @@ vi ~/.zshrc
 # amuse is recomend
 # 修改建议字体颜色
 vi ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# or may: ~/.zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 #加一行： ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=yellow'
 ```
 
