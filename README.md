@@ -328,4 +328,13 @@ vi ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 #加一行： ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=yellow'
 ```
 
+## 怎么取消自动更新
+```bash
+vim ~/.zsh/oh-my-zsh.sh
+# 删掉:
+#if [ "$DISABLE_AUTO_UPDATE" != "true" ]; then
+#  source $ZSH/tools/check_for_upgrade.sh
+#fi
+```
+
 
